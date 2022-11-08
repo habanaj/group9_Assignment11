@@ -5,8 +5,7 @@ Assignment: Assignment 11
 Course: IS 4010
 Semester/Year: Fall 2022
 Brief Description: This demonstrates that we can run a json to access an API server and create a dictionary from it. 
-Citations: https://catalog.data.gov/dataset?q=hospital&sort=views_recent+desc&res_format=CSV&ext_location=&ext_bbox=&ext_prev_extent=-150.46875%2C-80.17871349622823%2C151.875%2C80.17871349622823
-           Link to the CSV file I used. It's the 2009 VHA Facility...
+Citations: 
 Anything else that's relevant:
 '''
 import json # Built-in, no pip install required
