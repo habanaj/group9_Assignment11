@@ -9,12 +9,13 @@ Citations: https://www.ers.usda.gov/developer/data-apis/arms-data-api/
            Link that we used for the API
 Anything else that's relevant:
 '''
-import json # Built-in, no pip install required
-import requests # Add with pip
-
+# Import packages to access API
+import json 
+import requests 
+# Create variable for API content
 response = requests.get('https://api.ers.usda.gov/data/arms/state?api_key=W2pq7tbvlExznt92jH1jekdBoqX3yRsRdJOwNR2M')
 json_string = response.content
-    
+# Convert all content to string format    
 parsed_json = json.loads(json_string) # Now we have a python dictionary
 print(parsed_json)   
 
