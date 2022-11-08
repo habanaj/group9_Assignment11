@@ -5,12 +5,13 @@ Assignment: Assignment 11
 Course: IS 4010
 Semester/Year: Fall 2022
 Brief Description: This demonstrates that we can run a json to access an API server and create a dictionary from it. 
-Citations: 
+Citations: https://www.ers.usda.gov/developer/data-apis/arms-data-api/
+           Link that we used for the API
 Anything else that's relevant:
 '''
 import json # Built-in, no pip install required
 import requests # Add with pip
-#https://www.ers.usda.gov/developer/data-apis/arms-data-api/
+
 response = requests.get('https://api.ers.usda.gov/data/arms/state?api_key=W2pq7tbvlExznt92jH1jekdBoqX3yRsRdJOwNR2M')
 json_string = response.content
     
