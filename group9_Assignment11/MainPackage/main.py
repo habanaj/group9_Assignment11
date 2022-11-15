@@ -60,3 +60,6 @@ for key,value in state_names.items():
     
 for key,value in id.items():
     print(key, ' : ', value)
+
+for x in parsed_json['data']:
+           print(x)
