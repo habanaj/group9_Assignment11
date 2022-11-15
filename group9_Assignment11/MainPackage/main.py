@@ -62,4 +62,4 @@ for key,value in id.items():
     print(key, ' : ', value)
 
 for x in parsed_json['data']:
-           print(x)
+    print(x)
